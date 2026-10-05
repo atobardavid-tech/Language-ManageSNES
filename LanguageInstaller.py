@@ -507,7 +507,7 @@ def install_language():
         else:
             font_source = resource_path(os.path.join("font", "Other", "default.ttf"))
 
-        skin_dest_dir = os.path.join(APP_DIR, "skins", "default")
+        skin_dest_dir = os.path.join(APP_DIR, "psnes", "skins", "default")
         if os.path.exists(font_source):
             os.makedirs(skin_dest_dir, exist_ok=True)
             shutil.copy2(font_source, os.path.join(skin_dest_dir, "default.ttf"))
