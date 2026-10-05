@@ -28,6 +28,12 @@ Run:
 ```bash
 python LanguageInstaller.py
 ```
+Create .exe:
+
+```py -m PyInstaller --clean --onefile --windowed --icon=icono.ico --add-data "Languages;Languages" --add-data "font;font" --add-data "icono.ico;." LanguageInstaller.py
+```
+
+
 
 ## Note
 
