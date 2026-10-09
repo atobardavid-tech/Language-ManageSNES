@@ -2,6 +2,12 @@
 
 A Python utility that changes the language of a PSNES installation and manages game installation/removal.
 
+<p align="center">
+  <img src="Screenshots/interface.PNG" width="500">
+  <br>
+  <em>Program interface</em>
+</p>
+
 ## Features
 
 * Language selection.
